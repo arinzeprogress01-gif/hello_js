@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Html.css.org/learn</title>
+
+    <style>
+        /* 
+        CSS code to edit background
+        */
+        .red-button {
+            background-color: blue;
+            color: black;
+            border: none;
+            font-style: italic;
+        }
+
+        .green-button {
+            background-color: red;
+            color: black;
+            border: none;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <!--
+    title shows on cursor touch, class makes button unique and CSS editable, onclick makes javascript executable in HTML code
+    -->
+    <button title=" reload" className='red-button' onclick="
+        alert('Refreshing page');
+    ">
+        click here
+    </button>
+
+    <p>Download the app
+        <button title="link" className='green-button' onclick="
+            alert('Download will start in a few minutes')
+        ">
+            HERE
+        </button>
+    </p>
+
+    <script> // pops up on reload
+        alert('page is loaded successfully');
+    </script>
+</body>
+
+</html>
