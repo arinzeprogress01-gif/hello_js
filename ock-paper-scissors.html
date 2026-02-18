@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        rockPaperScissors.org/learn
+    </title>
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <p>rock paper scissors</p>
+    <button onclick="
+    const randomNumber = Math.random();
+
+    if (randomNumber < 1/3) {
+        console.log( alert('computer randomly selects a rock rock , its a tie'));
+    } else if (randomNumber < 2/3 ) {
+        console.log( alert('computer randomly selects a paper, you lose'));
+    } else if (randomNumber > 2/3) {
+        console.log(alert('computer randomly selects a scissors, you win' ));
+    }
+    ">rock</button>
+    <button onclick="
+    const randomNumber1 = Math.random();
+
+    if (randomNumber1 < 1/3) {
+        console.log(alert('computer randomly selects a rock rock , you win'));
+    } else if (randomNumber1 < 2/3 ) {
+        console.log( alert('computer randomly selects a paper, its a tie'));
+    } else if (randomNumber1 > 2/3) {
+        console.log(alert('computer randomly selects a scissors, you lose' ));
+    }
+    ">paper</button>
+    <button onclick="
+    const randomNumber2 = Math.random();
+
+    if (randomNumber2 < 1/3) {
+        console.log(alert('computer randomly selects a rock rock , you lose'));
+    } else if (randomNumber2 < 2/3 ) {
+        console.log( alert('computer randomly selects a paper, you win'));
+    } else if (randomNumber2 > 2/3) {
+        console.log(alert('computer randomly selects a scissors, its a tie' ));
+    }
+    ">scissors</button>
+    <script>
+      // Generate a random number between 0 and 1
+      // const randomNumber = Math.random();
+      //setup a condition to determine the computer's choice based on the random number
+      // use if else statements to determine the computer's choice and the outcome of the game
+      //assign the outcome of the game to a variable and log it to the console
+      //setup using buttons to allow the user to select rock, paper, or scissors and trigger the game logic when a button is clicked
+      //view the outcome of the game in an alert box or on the webpage
+      //view through live server to see the changes in the browser
+    </script>
+</body>
+
+</html>
